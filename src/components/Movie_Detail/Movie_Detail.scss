@@ -1,0 +1,47 @@
+@import '../../Images/color.scss';
+.Movie_Detail{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+
+    .img-container{
+        width: 35%;
+        height: 100%;
+        display: flex;justify-content: center;align-items: center;
+        div{
+            width: 75%;
+            height: 90%;
+            border-radius: 20px;
+
+            img{width: 100%;height: 100%;border-radius: 20px;}
+        }
+    }
+
+    .info-container{
+       width: 62%;
+       height: 100%;
+
+
+       .paddin-left-option{padding-left: 25px;}
+
+       .Title-container{
+           margin-top: 20px;
+           span{font-size: 50px;color: $Title_Color;}
+        }
+
+        .pub-color{
+            color: $Detail_Color;
+        }
+
+        .Year-container{
+            span{font-size: 25px;}
+        }
+
+        .Genre{margin-top: 10px;}
+
+        .Plot{
+            width: 75%;
+        }
+    }
+}

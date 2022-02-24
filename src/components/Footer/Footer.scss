@@ -1,0 +1,22 @@
+@import '../../Images/color.scss';
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: $Title_Color;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: auto;
+
+    div{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+
+        span{
+            font-size: 25px;
+            color: $Detail_Color;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+export const ApiKey = 'put your api code to fetch data';

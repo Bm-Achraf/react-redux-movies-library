@@ -1,0 +1,12 @@
+@import '../../Images/color.scss';
+
+.Movie-List{
+    width: 100%;
+    padding-bottom: 100px;
+    background-color: $Body_Color;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
