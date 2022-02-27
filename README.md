@@ -1,3 +1,12 @@
+#To display data ::
+1-get your api key from http://www.omdbapi.com/
+2-copy paste into ./src/Apis/Movie_ApiKey.js
+
+#To use auth0 for authentification ::
+1-get domain and clientID from auth0 website after creating app 
+2-copy paste on .env file
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
